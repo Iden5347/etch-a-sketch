@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+#container {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -480px;
+    display: grid;
+    grid-template-columns: repeat(16, 60px [col-start]);
+    grid-template-rows: repeat(16, 60px [col-start]);
+}
+.box {
+    display: inline-block;
+    border: 2px solid black;
+}
